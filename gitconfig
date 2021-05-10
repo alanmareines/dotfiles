@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+	editor = code -n -w  >/dev/null 2>&1
 
 [alias]
   co = checkout
@@ -51,3 +51,9 @@
 	name = Alan Mareines
 [init]
 	defaultBranch = main
+
+[diff]
+  tool = vscode
+
+[difftool]
+  cmd = code --wait --diff $LOCAL $REMOTE
