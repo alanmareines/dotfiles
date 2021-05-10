@@ -49,3 +49,5 @@
 [user]
 	email = alanmareines@gmail.com
 	name = Alan Mareines
+[init]
+	defaultBranch = main
